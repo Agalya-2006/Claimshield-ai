@@ -1,0 +1,59 @@
+﻿[
+  {
+    "id": "CL-4.2",
+    "number": "4.2",
+    "title": "Accidental Damage",
+    "description": "Covers physical damage to the insured vehicle caused by a sudden, unintended collision or impact.",
+    "requiredEvidence": ["claimForm", "incidentDescription", "repairEstimate"],
+    "conditions": ["incidentType:accident"],
+    "exclusions": [
+      "Damage arising from routine wear and tear",
+      "Damage while driving without a valid licence"
+    ]
+  },
+  {
+    "id": "CL-5.1",
+    "number": "5.1",
+    "title": "Theft of Vehicle",
+    "description": "Covers total loss of the insured vehicle due to theft, subject to a valid police report (FIR).",
+    "requiredEvidence": ["claimForm", "incidentDescription", "fir"],
+    "conditions": ["incidentType:theft"],
+    "exclusions": [
+      "Theft not reported to police within 48 hours",
+      "Keys left in an unattended, unlocked vehicle"
+    ]
+  },
+  {
+    "id": "CL-6.3",
+    "number": "6.3",
+    "title": "Third-Party Liability",
+    "description": "Covers legal liability for injury or property damage caused to a third party in an accident involving the insured vehicle.",
+    "requiredEvidence": ["claimForm", "incidentDescription", "fir"],
+    "conditions": ["incidentType:third_party"],
+    "exclusions": [
+      "Liability arising outside the policy's geographic coverage"
+    ]
+  },
+  {
+    "id": "CL-7.4",
+    "number": "7.4",
+    "title": "Natural Calamity Damage",
+    "description": "Covers damage caused by flood, storm, earthquake, or other natural calamities.",
+    "requiredEvidence": ["claimForm", "incidentDescription", "repairEstimate"],
+    "conditions": ["incidentType:natural_calamity"],
+    "exclusions": [
+      "Damage to vehicles parked in known flood-risk zones without prior warning heed"
+    ]
+  },
+  {
+    "id": "CL-8.1",
+    "number": "8.1",
+    "title": "Fire Damage",
+    "description": "Covers damage to the insured vehicle caused by fire, explosion, or self-ignition.",
+    "requiredEvidence": ["claimForm", "incidentDescription", "repairEstimate", "fir"],
+    "conditions": ["incidentType:fire"],
+    "exclusions": [
+      "Damage from fire caused by an illegal modification to the vehicle"
+    ]
+  }
+]

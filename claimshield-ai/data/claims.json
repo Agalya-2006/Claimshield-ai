@@ -1,0 +1,310 @@
+﻿[
+  {
+    "id": "CLM-1001",
+    "customer": "Arun Kumar",
+    "vehicle": "Hyundai i20 (TN 45 BC 3311)",
+    "vehicleType": "car",
+    "incidentType": "accident",
+    "incidentDate": "2026-08-12",
+    "claimAmount": 48500,
+    "submittedAt": "2026-08-13T09:15:00Z",
+    "documents": {
+      "claimForm": {
+        "present": true,
+        "verified": true,
+        "fields": {
+          "incidentDate": "2026-08-12",
+          "claimAmount": 48500
+        }
+      },
+      "incidentDescription": {
+        "present": true,
+        "verified": true,
+        "text": "Rear-ended by another vehicle at a signal on 12/08/2026. Bumper and tail light damaged.",
+        "fields": {
+          "incidentDate": "2026-08-12"
+        }
+      },
+      "repairEstimate": {
+        "present": true,
+        "verified": true,
+        "fields": {
+          "estimateDate": "2026-08-15",
+          "amount": 48500
+        }
+      },
+      "fir": {
+        "present": false
+      }
+    }
+  },
+  {
+    "id": "CLM-1002",
+    "customer": "Priya Sundaram",
+    "vehicle": "Honda Activa (TN 21 AZ 8890)",
+    "vehicleType": "two_wheeler",
+    "incidentType": "theft",
+    "incidentDate": "2026-08-02",
+    "claimAmount": 62000,
+    "submittedAt": "2026-08-03T11:02:00Z",
+    "documents": {
+      "claimForm": {
+        "present": true,
+        "verified": true,
+        "fields": {
+          "incidentDate": "2026-08-02",
+          "claimAmount": 62000
+        }
+      },
+      "incidentDescription": {
+        "present": true,
+        "verified": true,
+        "text": "Scooter stolen from outside residence overnight on 02/08/2026.",
+        "fields": {
+          "incidentDate": "2026-08-02"
+        }
+      },
+      "repairEstimate": {
+        "present": false
+      },
+      "fir": {
+        "present": true,
+        "verified": true,
+        "fields": {
+          "firDate": "2026-08-02",
+          "firNumber": "FIR/2026/4471"
+        }
+      }
+    }
+  },
+  {
+    "id": "CLM-1003",
+    "customer": "Karthik Raja",
+    "vehicle": "Maruti Swift (TN 09 CD 1120)",
+    "vehicleType": "car",
+    "incidentType": "accident",
+    "incidentDate": "2026-08-20",
+    "claimAmount": 91200,
+    "submittedAt": "2026-08-21T14:40:00Z",
+    "documents": {
+      "claimForm": {
+        "present": true,
+        "verified": true,
+        "fields": {
+          "incidentDate": "2026-08-22",
+          "claimAmount": 91200
+        }
+      },
+      "incidentDescription": {
+        "present": true,
+        "verified": true,
+        "text": "Collided with a roadside barrier while avoiding a pothole on 20/08/2026.",
+        "fields": {
+          "incidentDate": "2026-08-20"
+        }
+      },
+      "repairEstimate": {
+        "present": true,
+        "verified": true,
+        "fields": {
+          "estimateDate": "2026-08-23",
+          "amount": 95000
+        }
+      },
+      "fir": {
+        "present": false
+      }
+    }
+  },
+  {
+    "id": "CLM-1004",
+    "customer": "Meena Devi",
+    "vehicle": "TVS Jupiter (TN 33 EF 5567)",
+    "vehicleType": "two_wheeler",
+    "incidentType": "third_party",
+    "incidentDate": "2026-08-05",
+    "claimAmount": 35000,
+    "submittedAt": "2026-08-06T08:20:00Z",
+    "documents": {
+      "claimForm": {
+        "present": true,
+        "verified": true,
+        "fields": {
+          "incidentDate": "2026-08-05",
+          "claimAmount": 35000
+        }
+      },
+      "incidentDescription": {
+        "present": true,
+        "verified": true,
+        "text": "Sideswiped a pedestrian's cart while turning; third party property damaged.",
+        "fields": {
+          "incidentDate": "2026-08-05"
+        }
+      },
+      "repairEstimate": {
+        "present": false
+      },
+      "fir": {
+        "present": false
+      }
+    }
+  },
+  {
+    "id": "CLM-1005",
+    "customer": "Suresh Babu",
+    "vehicle": "Tata Nexon (TN 10 GH 7788)",
+    "vehicleType": "car",
+    "incidentType": "natural_calamity",
+    "incidentDate": "2026-07-28",
+    "claimAmount": 154000,
+    "submittedAt": "2026-07-29T16:05:00Z",
+    "documents": {
+      "claimForm": {
+        "present": true,
+        "verified": true,
+        "fields": {
+          "incidentDate": "2026-07-28",
+          "claimAmount": 154000
+        }
+      },
+      "incidentDescription": {
+        "present": true,
+        "verified": true,
+        "text": "Vehicle submerged during heavy flooding on 28/07/2026; engine and interior damaged.",
+        "fields": {
+          "incidentDate": "2026-07-28"
+        }
+      },
+      "repairEstimate": {
+        "present": true,
+        "verified": true,
+        "fields": {
+          "estimateDate": "2026-07-30",
+          "amount": 154000
+        }
+      },
+      "fir": {
+        "present": false
+      }
+    }
+  },
+  {
+    "id": "CLM-1006",
+    "customer": "Divya Lakshmi",
+    "vehicle": "Royal Enfield Classic 350 (TN 45 JK 9012)",
+    "vehicleType": "two_wheeler",
+    "incidentType": "fire",
+    "incidentDate": "2026-08-18",
+    "claimAmount": 118000,
+    "submittedAt": "2026-08-19T10:30:00Z",
+    "documents": {
+      "claimForm": {
+        "present": true,
+        "verified": true,
+        "fields": {
+          "incidentDate": "2026-08-18",
+          "claimAmount": 118000
+        }
+      },
+      "incidentDescription": {
+        "present": true,
+        "verified": true,
+        "text": "Vehicle caught fire while parked; cause unclear, suspected electrical short circuit.",
+        "fields": {
+          "incidentDate": "2026-08-18"
+        }
+      },
+      "repairEstimate": {
+        "present": true,
+        "verified": true,
+        "fields": {
+          "estimateDate": "2026-08-20",
+          "amount": 118000
+        }
+      },
+      "fir": {
+        "present": false
+      }
+    }
+  },
+  {
+    "id": "CLM-1007",
+    "customer": "Ramesh Iyer",
+    "vehicle": "Kia Seltos (TN 66 LM 3345)",
+    "vehicleType": "car",
+    "incidentType": "accident",
+    "incidentDate": "2026-08-25",
+    "claimAmount": 27500,
+    "submittedAt": "2026-08-26T12:00:00Z",
+    "documents": {
+      "claimForm": {
+        "present": true,
+        "verified": true,
+        "fields": {
+          "incidentDate": "2026-08-25",
+          "claimAmount": 27500
+        }
+      },
+      "incidentDescription": {
+        "present": true,
+        "verified": true,
+        "text": "Minor scrape against a gate pillar while reversing on 25/08/2026.",
+        "fields": {
+          "incidentDate": "2026-08-25"
+        }
+      },
+      "repairEstimate": {
+        "present": true,
+        "verified": true,
+        "fields": {
+          "estimateDate": "2026-08-26",
+          "amount": 27500
+        }
+      },
+      "fir": {
+        "present": false
+      }
+    }
+  },
+  {
+    "id": "CLM-1008",
+    "customer": "Vignesh Pandian",
+    "vehicle": "Bajaj Pulsar 150 (TN 72 NP 4423)",
+    "vehicleType": "two_wheeler",
+    "incidentType": "accident",
+    "incidentDate": "2026-08-10",
+    "claimAmount": 15200,
+    "submittedAt": "2026-08-11T09:00:00Z",
+    "exclusionTriggered": "Damage arising from routine wear and tear",
+    "documents": {
+      "claimForm": {
+        "present": true,
+        "verified": true,
+        "fields": {
+          "incidentDate": "2026-08-10",
+          "claimAmount": 15200
+        }
+      },
+      "incidentDescription": {
+        "present": true,
+        "verified": true,
+        "text": "Chain and sprocket assembly failed due to prolonged wear; no collision or external impact occurred.",
+        "fields": {
+          "incidentDate": "2026-08-10"
+        }
+      },
+      "repairEstimate": {
+        "present": true,
+        "verified": true,
+        "fields": {
+          "estimateDate": "2026-08-12",
+          "amount": 15200
+        }
+      },
+      "fir": {
+        "present": false
+      }
+    }
+  }
+]
